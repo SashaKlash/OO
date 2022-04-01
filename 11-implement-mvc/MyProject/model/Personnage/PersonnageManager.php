@@ -1,8 +1,12 @@
 <?php
 // espace de travail Personnage
-namespace model\Personnage;
+namespace MyProject\model\Personnage;
 // utilisation de MyPDO qui ne se trouve pas dans le même espace de travail
-use model\MyPDO;
+use MyProject\model\MyPDO;
+use Exception;
+// non utile si on utilise MyPDO, mais les bonnes pratiques préfèrent que l'on parte de la classe parent pour utiliser les constantes PDO::FETCH_ASSOC
+use PDO;
+
 
 // gestion de la table mappée Personnage
 // use model\MyPDO;

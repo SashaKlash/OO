@@ -1,9 +1,9 @@
 <?php
 
-namespace model\Personnage\PersonnageChild;
+namespace MyProject\model\Personnage\PersonnageChild;
 
 // Magicien est étendu de Personnage
-use model\Personnage\Personnage;
+use MyProject\model\Personnage\Personnage;
 
 class Magicien extends Personnage
 {
